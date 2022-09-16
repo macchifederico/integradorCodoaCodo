@@ -8,7 +8,6 @@
 
 .padre{
     position: relative;
-    
 }
 
 .padre span{
@@ -21,4 +20,30 @@
     top: 1;
     padding: 10px;
     color: #fff;    
+}
+
+.portada{
+    margin-bottom: 30px;
+}
+
+.cards-oradores{
+    margin-bottom: 30px;
+}
+
+.hawai{
+    margin-bottom: 30px;
+}
+
+.formulario{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1000px){
+    .padre{
+    }
+    
+    .padre span{
+        
+    }
+    
 }
