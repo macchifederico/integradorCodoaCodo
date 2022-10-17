@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodoACodo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
+
 <!-- comienza navbar -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <img class="logo_cac" src="./img/codoacodo.png" alt="logo_cac" height="60">
-          <a class="navbar-brand" href="#">Conf Bs As</a>
+          <a class="navbar-brand" href="./index.html">Conf Bs As</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
           data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@
                 <a class="nav-link" href="#form">Conviertete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-success" href="#">Comprar tickets</a>
+                <a class="nav-link text-success" href="/tickets.html">Comprar tickets</a>
               </li>
             </ul>
           </div>
@@ -42,6 +43,7 @@
       </nav>  
     </header>
     
+<div class="container">
 
 <!-- Imagen portada -->
   <article class="padre text-end fw-bold portada">
@@ -57,7 +59,7 @@
             de primer nivel que tenemos para ti. Te esperamos!
           </p>
           <a type="button" class="btn btn-secondary" href="#form">Quiero ser orador</a>
-          <a type="button" class="btn btn-success">Comprar tickets</a>
+          <a type="button" class="btn btn-success" href="/tickets.html">Comprar tickets</a>
         </div>
       </div>
     </span>
@@ -117,7 +119,7 @@
             urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado 
             consolidada que cubre toda la ciudad (aprox. 600 kms de superficie).
           </p>
-          <button type="button" class="btn btn-outline-secondary">Conoce mas</button>
+          <button type="button btn" class="btn btn-outline-secondary">Conoce mas</button>
         </div>
       </div>
     </div>
@@ -136,10 +138,10 @@
   <form class="container" style="max-width: 60%;">
     <div class="row">
       <div class="col">
-        <input type="text" class="form-control" placeholder="First name" aria-label="Nombre">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
       </div>
       <div class="col">
-        <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
       </div>
     </div>
     <br>
@@ -154,9 +156,9 @@
     </div>
   </form>
 </div>
-
+</div>
 <!-- Footer -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark footer">
   <div class="container-fluid">
     <div class="collapse navbar-collapse justify-content-center">
       <ul class="navbar-nav">
